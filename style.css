@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto";
+}
+
+header img{
+    width: 112px;
+    height: 66px;
+    margin-left: 100px;
+    margin-top: 21px;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.man{
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+h1{
+    font-family: 'Roboto Slab';
+    font-size: 80px;
+    line-height: 101.38%;
+}
+.rightpart{
+    margin-top: 150px;
+    display: grid;
+}
+.headinfo{
+    display: flex;
+    margin-top: 90px;
+}
+.clock{
+    margin-left: 30px;
+}
+
+.calendar{
+    margin-left: 30px;
+}
+
+section {
+    padding: 30px 100px;
+}
+
+h2 {
+    font-family: "Roboto Slab";
+    font-size: 55px;
+}
+
+.text-one{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.card{
+    width: 400px;
+    padding: 5px 30px;
+    background-color:  #1E4681;
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+    margin-top: 67px;
+}
+.card .des{
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    line-height: 32px;
+}
+.card .aut{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 26px;
+    text-align: end;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-two {
+    width: 60%;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.image-1 {
+    display: grid;
+}
+
+.first-img {
+    width: 314px;
+    height: 315px;
+}
+
+.ellipse-2 {
+    position: relative;
+    bottom: 25px;
+    z-index: -1;
+    right: 4%;
+}
+.image-2{
+    display: grid;
+}
+
+.second-img {
+    width: 232px;
+    height: 203px;
+}
+
+.ellipse-3 {
+    position: relative;
+    bottom: 18px;
+    left: 8%;
+    z-index: -1;
+}
+
+.footer-text {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.container-two,
+.footer-text {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.bottom {
+    font-size: 18px;
+    width: 60%;
+}
+
+@media screen and (min-width:840px) and (max-width: 1120px) {
+
+    header img{
+        width: 64.87px;
+        height: 38.23px;
+        margin-left: 100px;
+        margin-top: 21px;
+    }
+    h1{
+        font-size: 46px;
+
+    }
+    .text-one{
+        font-size: 12px;
+    }
+    .rightpart{
+        margin-left: 110px;
+    }
+    .man{
+        width: 176.07px;
+        height: 206.18px;
+    }
+    .ellipse{
+        width: 158.69px;
+        height: 23.75px;
+    }
+
+    .card{
+        width: 280.11px;
+        height: 115.83px;
+    }
+    .card .des{
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .card .aut{
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+
+    .first-img {
+        width: 181.86px;
+        height: 181.86px;
+    }
+
+    .second-img{
+        width: 181.86px;
+        height: 182.44px;
+    }
+
+    .ellipse-2 {
+        width: 211.98px;
+        height: 34.17px;
+        bottom: 21px;
+        right: 8%;
+    }
+    .ellipse-3{
+        width: 211.98px;
+        height: 34.17px;
+        bottom: 30px;
+        right: 8%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .text-two {
+        width: 383.41px;
+        font-size: 14px;
+    }
+
+    .footer-text {
+        width: 55%;
+    
+        margin-left: 0;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .bottom {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    header img{
+        width: 52.19px;
+        height: 30.75px;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+    h1{
+        font-size: 37px;
+    }
+    .text-one{
+        font-size: 10px;
+        line-height: 150%;
+    }
+    .firstsec{
+        flex-wrap: wrap;
+    }
+    .rightpart{
+        margin-left: 130px;
+        text-align: right;
+    }
+    .man{
+        width: 176.07px;
+        height: 206.18px;
+        margin-top: -105px;
+        
+    }
+    .ellipse{
+        width: 158.69px;
+        height: 23.75px;
+    }
+
+    .card{
+        width: 280.11px;
+        height: 115.83px;
+    }
+    .card .des{
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .card .aut{
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+
+    .image-2 {
+        display: none;
+    }
+
+    .first-img {
+        width: 170.55px;
+        height: 160.29px;
+    }
+
+    .ellipse-2 {
+        width: 197.55px;
+        height: 27.49px;
+        right: 5%;
+        bottom: 12px;
+    }
+
+    section {
+        padding: 30px 37px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-two {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .footer-text {
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    .bottom {
+        font-size: 10px;
+    }
+}
